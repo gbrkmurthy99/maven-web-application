@@ -22,7 +22,7 @@
 		<spring.version>5.0.2.RELEASE</spring.version>
 		<junit.version>4.12</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://localhost:9000/</sonar.host.url>
+		<http://ec2-13-232-233-91.ap-south-1.compute.amazonaws.com:9000>
 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -34,7 +34,7 @@
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
-			<version>${junit.version}</version>
+			<version>${junit.version}</version> 
 		</dependency>
 
 		<dependency>
